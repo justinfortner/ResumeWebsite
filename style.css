@@ -207,26 +207,26 @@ body{
 }
 
 /*Ressime List Header Year*/
-.timeline li h4{
+.timeline li h4 span{
     font-weight: bold;
     color: #ccc;
 }
 
 /* Resume CSS End */
 
-/* Projects CSS Start */
-.projects{
+/* School Projects CSS Start */
+.school-projects{
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-/* Projects Header CSS */
-.projects h1{
+/* School Projects Header CSS */
+.school-projects h1{
     margin-bottom: 15px;
 }
 
-/* Project Bok style CSS */
-.projects-box{
+/* School Project Bok style CSS */
+.school-projects-box{
     background-color: #f9f9f9;
     padding: 10px;
     margin-top: 20px;
@@ -234,28 +234,28 @@ body{
     border-bottom-left-radius: 50px;
 }
 
-/* Project Icons CSS */
-.projects-box .fa{
+/* School Project Icons CSS */
+.school-projects-box .fa{
     margin: 0 10px;
     font-size: 35px;
 }
 
-/* Project Box Titles CSS */
-.projects-box span{
+/* School Project Box Titles CSS */
+.school-projects-box span{
     margin: 3px;
     font-size: 20px;
     font-weight: bold;
 }
 
-/* Project Box Descriptions CSS */
-.projects-box p{
+/* School Project Box Descriptions CSS */
+.school-projects-box p{
     font-size: 15px;
     margin-top: 20px;
     color: #777;
 }
 
-/* Project Pox Hover Animation */
-.projects-box:hover{
+/* School Project Pox Hover Animation */
+.school-projects-box:hover{
     background: #000;
     color: #fff;
     padding: 10px;
@@ -267,12 +267,72 @@ body{
     transition: 1s;
 }
 
-/* Project Pox Hover Text Animation */
-.projects-box:hover p{
+/* School Project Pox Hover Text Animation */
+.school-projects-box:hover p{
     color: #fff;
 }
 
-/* Projects CSS End */
+/* School Projects CSS End */
+
+/* Personal Projects CSS Start */
+.personal-projects{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Personal Projects Header CSS */
+.personal-projects h1{
+    margin-bottom: 15px;
+}
+
+/* Personal Project Bok style CSS */
+.personal-projects-box{
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-top: 20px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+/* Personal Project Icons CSS */
+.personal-projects-box .fa{
+    margin: 0 10px;
+    font-size: 35px;
+}
+
+/* Personal Project Box Titles CSS */
+.personal-projects-box span{
+    margin: 3px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Personal Project Box Descriptions CSS */
+.personal-projects-box p{
+    font-size: 15px;
+    margin-top: 20px;
+    color: #777;
+}
+
+/* Personal Project Pox Hover Animation */
+.personal-projects-box:hover{
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    transition: 1s;
+}
+
+/* Personal Project Pox Hover Text Animation */
+.personal-projects-box:hover p{
+    color: #fff;
+}
+
+/* Personal Projects CSS End */
 
 /* Contact CSS Start */
 .contact{
