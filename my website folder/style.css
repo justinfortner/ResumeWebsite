@@ -126,6 +126,11 @@ body{
 }
 
 /* Skills p CSS */
+.skills{
+    padding-bottom: 30px;
+}
+
+/* Skills Bar p CSS */
 .skills-bar p{
     margin-bottom: 6px;
     font-weight: 600;
