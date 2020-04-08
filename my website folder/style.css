@@ -116,8 +116,7 @@ body{
 
 /* About CSS Start */
 .about{
-    padding-top: 100px;
-    padding-bottom: -130px;
+    margin-top: -400px;
 }
 
 /* About Me Profile Picture CSS */
@@ -148,7 +147,6 @@ body{
 
 /* Resume CSS Start */
 .resume{
-    margin-top: -100px;
     padding-top: 50px;
     padding-bottom: 30px;
     background: #f9f9f9;
@@ -397,6 +395,7 @@ body{
 
 /* Icons CSS Start */
 .icons{
+    padding-top: 250px;
     top: 50%;
     transform: translateY(-50%);
     position: sticky;
@@ -432,7 +431,6 @@ body{
 
 /* Report CSS Start */
 .report{
-    margin-top: -100px;
     padding-top: 50px;
     padding-bottom: 30px;
     background: #f9f9f9;
@@ -559,7 +557,7 @@ body{
     font-weight: bold;
 }
 
-/* SPhoto Gallery Box Descriptions CSS */
+/* Photo Gallery Box Descriptions CSS */
 .photo-gallery-box p{
     font-size: 15px;
     margin-top: 20px;
