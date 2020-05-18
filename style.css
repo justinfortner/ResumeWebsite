@@ -410,7 +410,7 @@ body{
 
 /* Contact Row Formatting CSS */
 .contact .row{
-    padding: 30px 0;
+    padding: 30px 10px;
     font-size: 22px;
 }
 
